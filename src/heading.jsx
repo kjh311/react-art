@@ -6,9 +6,9 @@ import './heading.scss';
 class Heading extends Component {
   render() {
     return (
-      <div className="heading">
-        <h1>Welcome to Art Prompt!</h1> 
-        <h5>Have Artist Block? Randomize an art prompt or create your own to get those creative juices flowing.</h5> 
+      <div className="heading ">
+        <h1 className="d-flex justify-content-center">Welcome to Art Prompt!</h1> 
+        <h5 className="d-flex justify-content-center">Have Artist Block? Randomize an art prompt or create your own to get those creative juices flowing.</h5> 
       </div>
     );
   }

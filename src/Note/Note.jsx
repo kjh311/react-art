@@ -13,15 +13,15 @@ class Note extends Component{
 	render(props){
 		return (
 			<div className = "note"> 
-				<p className="noteContent">{this.noteContent}</p>
+				<p className="noteContent d-flex justify-content-center">{this.noteContent}</p>
 			</div>
 
 		)
 	}
 }
 
-Note.propTypes = {
-
-} 
+// Note.propTypes = {
+// 	noteContent = PropTypes.string;
+// } 
 
 export default Note;

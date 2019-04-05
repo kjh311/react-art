@@ -24,7 +24,6 @@ constructor(props){
     return (
       <div className="notesWrapper">
         <div className="notesHeader">
-        <div className="heading">React todo</div>
           <Nav />
           <Heading />
           <div className="notesBody">
