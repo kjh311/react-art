@@ -20,8 +20,8 @@ class Note extends Component{
 	}
 }
 
-// Note.propTypes = {
-// 	noteContent = PropTypes.string;
-// } 
+Note.propTypes = {
+	noteContent: PropTypes.string
+} 
 
 export default Note;
